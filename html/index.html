@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Zoom</title>
+    <link rel="stylesheet" href="../css/vanilla-zoom.css">
+</head>
+<body>
+
+    <div id="my-gallery" class="vanilla-zoom">
+        <div class="slider">
+            <img src="../images/image-1.jfif" alt="image 1" class="small-preview">
+            <img src="../images/image-2.jfif" alt="image 2" class="small-preview">
+            <img src="../images/image-3.jfif" alt="image 3" class="small-preview">
+        </div>
+        <div class="zoomed-image"></div>
+    </div>
+
+    <script src="../JS/vanilla-zoom.js"></script>
+
+    <script>
+        vanillaZoom.init('#my-gallery');
+    </script>
+    
+</body>
+</html>
